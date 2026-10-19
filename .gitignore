@@ -4,6 +4,6 @@ __pycache__/
 
 # Simulation outputs
 *.dcd
-*.pdb
 *.chk
+output/
 simulations/

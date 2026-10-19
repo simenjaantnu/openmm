@@ -81,7 +81,7 @@ def run_simulation(
 
 
 def main():
-    test_protein = "1UBQ" #ubiquitin
+    test_protein = "result_model_0" #ubiquitin
     modeller, forcefield = prepare_system(f"{test_protein}.pdb")
     simulation = setup_simulation(modeller,forcefield)
     run_simulation(simulation,25_000, 500)
